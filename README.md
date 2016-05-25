@@ -96,6 +96,7 @@ Values
 | --- | ---- |
 | CONNECT | sg:connect |
 | CONFLICT | sg:conflict |
+| RELEASE | sg:release |
 | DISCONNECT | sg:disconnect |
 | ERROR | sg:error |
 | LOCK | sg:lock |
