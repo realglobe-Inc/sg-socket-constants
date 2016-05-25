@@ -96,6 +96,7 @@ Values
 | --- | ---- |
 | CONNECT | sg:connect |
 | CONFLICT | sg:conflict |
+| ALLOC | sg:alloc |
 | RELEASE | sg:release |
 | DISCONNECT | sg:disconnect |
 | ERROR | sg:error |
