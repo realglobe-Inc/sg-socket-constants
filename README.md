@@ -90,7 +90,7 @@ socket.emit(buildinEvents.LOCK, { by: 'me' })
 Values
 ------
 
-##### buildinEvents
+##### BuildinEvents
 
 | Key | Value |
 | --- | ---- |
@@ -102,6 +102,27 @@ Values
 | ERROR | sg:error |
 | LOCK | sg:lock |
 | UNLOCK | sg:unlock |
+
+
+##### LockingEvents
+
+| Key | Value |
+| --- | ---- |
+| ALLOC | sg:lock:alloc |
+| RELEASE | sg:lock:release |
+| CONFLICT | sg:lock:conflict |
+| LOCK | sg:lock:lock |
+| UNLOCK | sg:lock:unlock |
+
+
+##### SpotEvents
+
+| Key | Value |
+| --- | ---- |
+| HELLO | sg:spot:hello |
+| BYE | sg:spot:bye |
+| REJECT | sg:spot:reject |
+| ABOUT | sg:spot:about |
 
 
 
