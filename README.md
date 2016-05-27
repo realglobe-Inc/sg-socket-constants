@@ -105,9 +105,9 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| HELLO | sg:spot:hello |
+| HI | sg:spot:hi |
 | BYE | sg:spot:bye |
-| REJECT | sg:spot:reject |
+| REJECTION | sg:spot:rejection |
 | ABOUT | sg:spot:about |
 
 
