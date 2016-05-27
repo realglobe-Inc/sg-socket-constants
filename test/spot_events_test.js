@@ -4,7 +4,7 @@
  */
 'use strict'
 
-const spotEvents = require('../lib/spot_events.js')
+const SpotEvents = require('../lib/spot_events.js')
 const assert = require('assert')
 const co = require('co')
 
@@ -18,7 +18,9 @@ describe('spot-events', () => {
   }))
 
   it('Spot events', () => co(function * () {
-
+    for (let name of Object.keys(SpotEvents)) {
+      assert.ok(SpotEvents[ name ])
+    }
   }))
 })
 
