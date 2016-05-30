@@ -90,7 +90,7 @@ socket.emit(buildinEvents.LOCK, { by: 'me' })
 Values
 ------
 
-##### acknowledgeStatus
+##### AcknowledgeStatus
 
 | Key | Value |
 | --- | ---- |
@@ -102,6 +102,8 @@ Values
 
 | Key | Value |
 | --- | ---- |
+| ALLOC | sg:lock:alloc |
+| RELEASE | sg:lock:release |
 | LOCK | sg:lock:lock |
 | UNLOCK | sg:lock:unlock |
 
