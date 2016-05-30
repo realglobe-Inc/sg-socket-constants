@@ -71,13 +71,16 @@ Usage
 'use strict'
 
 const {
-  buildinEvents
+  LockingEvents
 } = require('sg-socket-constants')
 
 const sgSocketClient = require('sg-socket-client')
 
 let socket = sgSocketClient('http://localhost:8004')
-socket.emit(buildinEvents.LOCK, { by: 'me' })
+socket.emit(LockingEvents.LOCK, {
+  name: 'resource01',
+  by: 'me'
+})
 
 ```
 
@@ -98,6 +101,14 @@ Values
 | NG | sg:acknowledge:ng |
 
 
+##### GreetingEvents
+
+| Key | Value |
+| --- | ---- |
+| HI | sg:greet:hi |
+| BYE | sg:greet:bye |
+
+
 ##### LockingEvents
 
 | Key | Value |
@@ -106,6 +117,14 @@ Values
 | RELEASE | sg:lock:release |
 | LOCK | sg:lock:lock |
 | UNLOCK | sg:lock:unlock |
+
+
+##### RemoteEvents
+
+| Key | Value |
+| --- | ---- |
+| INTERFACE | sg:remote:interface |
+| ACTION | sg:remote.action |
 
 
 ##### ReservedEvents
@@ -118,17 +137,6 @@ Values
 | CONNECT_TIMEOUT | connect_timeout |
 | DISCONNECT | disconnect |
 | ERROR | error |
-
-
-##### SpotEvents
-
-| Key | Value |
-| --- | ---- |
-| HI | sg:spot:hi |
-| BYE | sg:spot:bye |
-| INTERFACE | sg:spot:interface |
-| ACTION | sg:spot.action |
-| ABOUT | sg:spot:about |
 
 
 
