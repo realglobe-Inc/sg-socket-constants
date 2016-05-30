@@ -101,12 +101,20 @@ Values
 | UNLOCK | sg:lock:unlock |
 
 
+##### ReservedEvents
+
+| Key | Value |
+| --- | ---- |
+| CONNECTION | connection |
+
+
 ##### SpotEvents
 
 | Key | Value |
 | --- | ---- |
 | HI | sg:spot:hi |
 | BYE | sg:spot:bye |
+| ACCEPTANCE | sg:spot:acceptance |
 | REJECTION | sg:spot:rejection |
 | INTERFACE | sg:spot:interface |
 | ACTION | sg:spot.action |
