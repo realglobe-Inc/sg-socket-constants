@@ -108,6 +108,8 @@ Values
 | HI | sg:spot:hi |
 | BYE | sg:spot:bye |
 | REJECTION | sg:spot:rejection |
+| INTERFACE | sg:spot:interface |
+| ACTION | sg:spot.action |
 | ABOUT | sg:spot:about |
 
 
