@@ -4,7 +4,7 @@
  */
 'use strict'
 
-const reservedEvents = require('../lib/reserved_events.js')
+const ReservedEvents = require('../lib/reserved_events.js')
 const assert = require('assert')
 const co = require('co')
 
@@ -18,7 +18,9 @@ describe('reserved-events', () => {
   }))
 
   it('Reserved events', () => co(function * () {
-
+    for (let name of Object.keys(ReservedEvents)) {
+      assert.ok(ReservedEvents[ name ])
+    }
   }))
 })
 

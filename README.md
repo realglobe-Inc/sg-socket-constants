@@ -90,13 +90,18 @@ socket.emit(buildinEvents.LOCK, { by: 'me' })
 Values
 ------
 
+##### acknowledgeStatus
+
+| Key | Value |
+| --- | ---- |
+| OK | sg:acknowledge:ok |
+| NG | sg:acknowledge:ng |
+
+
 ##### LockingEvents
 
 | Key | Value |
 | --- | ---- |
-| ALLOC | sg:lock:alloc |
-| RELEASE | sg:lock:release |
-| CONFLICT | sg:lock:conflict |
 | LOCK | sg:lock:lock |
 | UNLOCK | sg:lock:unlock |
 
@@ -107,7 +112,10 @@ Values
 | --- | ---- |
 | CONNECTION | connection |
 | CONNECT | connect |
+| CONNECT_ERROR | connect_error |
+| CONNECT_TIMEOUT | connect_timeout |
 | DISCONNECT | disconnect |
+| ERROR | error |
 
 
 ##### SpotEvents
@@ -116,8 +124,6 @@ Values
 | --- | ---- |
 | HI | sg:spot:hi |
 | BYE | sg:spot:bye |
-| ACCEPTANCE | sg:spot:acceptance |
-| REJECTION | sg:spot:rejection |
 | INTERFACE | sg:spot:interface |
 | ACTION | sg:spot.action |
 | ABOUT | sg:spot:about |

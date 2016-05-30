@@ -12,7 +12,8 @@ module.exports = apeTmpl.indexJsBud({
   module: name,
   dirname: __dirname,
   subclasses: [
-    '*Events'
+    '*Events',
+    '*Status'
   ]
 })
 
