@@ -106,6 +106,8 @@ Values
 | Key | Value |
 | --- | ---- |
 | CONNECTION | connection |
+| CONNECT | connect |
+| DISCONNECT | disconnect |
 
 
 ##### SpotEvents
