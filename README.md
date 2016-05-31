@@ -125,6 +125,9 @@ Values
 | --- | ---- |
 | INTERFACE | sg:remote:interface |
 | ACTION | sg:remote.action |
+| PIPE | sg:remote:pipe |
+| JOIN | sg:remote.join |
+| LEAVE | sg:remote.leave |
 
 
 ##### ReservedEvents
