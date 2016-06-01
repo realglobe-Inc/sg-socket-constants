@@ -119,13 +119,22 @@ Values
 | UNLOCK | sg:lock:unlock |
 
 
+##### PubsubEvents
+
+| Key | Value |
+| --- | ---- |
+| SUBSCRIBE | sg:pubsub:subscribe |
+| UNSUBSCRIBE | sg:pubsub:unsubscribe |
+| COUNT | sg:pubsub:count |
+| PUBLISH | sg:pubsub:publish |
+
+
 ##### RemoteEvents
 
 | Key | Value |
 | --- | ---- |
 | INTERFACE | sg:remote:interface |
 | ACTION | sg:remote.action |
-| PIPE | sg:remote:pipe |
 | JOIN | sg:remote.join |
 | LEAVE | sg:remote.leave |
 
