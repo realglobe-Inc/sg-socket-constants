@@ -123,10 +123,13 @@ Values
 
 | Key | Value |
 | --- | ---- |
+| OPEN | sg:pubsub:open |
+| CLOSE | sg:pubsub:close |
+| PUBLISH | sg:pubsub:publish |
+| COUNT | sg:pubsub:count |
 | SUBSCRIBE | sg:pubsub:subscribe |
 | UNSUBSCRIBE | sg:pubsub:unsubscribe |
-| COUNT | sg:pubsub:count |
-| PUBLISH | sg:pubsub:publish |
+| RECEIVE | sg:pubsub:receive |
 
 
 ##### RemoteEvents
@@ -134,9 +137,9 @@ Values
 | Key | Value |
 | --- | ---- |
 | INTERFACE | sg:remote:interface |
-| ACTION | sg:remote.action |
 | JOIN | sg:remote.join |
 | LEAVE | sg:remote.leave |
+| ACTION | sg:remote.action |
 
 
 ##### ReservedEvents
