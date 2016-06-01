@@ -129,7 +129,9 @@ Values
 | COUNT | sg:pubsub:count |
 | SUBSCRIBE | sg:pubsub:subscribe |
 | UNSUBSCRIBE | sg:pubsub:unsubscribe |
+| READY | sg:pubsub:ready |
 | RECEIVE | sg:pubsub:receive |
+| GONE | sg:pubsub:gone |
 
 
 ##### RemoteEvents
@@ -148,6 +150,7 @@ Values
 | --- | ---- |
 | CONNECTION | connection |
 | CONNECT | connect |
+| RECONNECT | reconnect |
 | CONNECT_ERROR | connect_error |
 | CONNECT_TIMEOUT | connect_timeout |
 | DISCONNECT | disconnect |
