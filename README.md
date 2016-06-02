@@ -129,9 +129,7 @@ Values
 | COUNT | sg:pubsub:count |
 | SUBSCRIBE | sg:pubsub:subscribe |
 | UNSUBSCRIBE | sg:pubsub:unsubscribe |
-| READY | sg:pubsub:ready |
 | RECEIVE | sg:pubsub:receive |
-| GONE | sg:pubsub:gone |
 
 
 ##### RemoteEvents
