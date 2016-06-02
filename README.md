@@ -123,8 +123,8 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| OPEN | sg:pubsub:open |
-| CLOSE | sg:pubsub:close |
+| RAISE | sg:pubsub:raise |
+| SHUT | sg:pubsub:shut |
 | PUBLISH | sg:pubsub:publish |
 | COUNT | sg:pubsub:count |
 | SUBSCRIBE | sg:pubsub:subscribe |
