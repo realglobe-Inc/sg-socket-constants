@@ -142,7 +142,7 @@ Values
 | DOWN | sg:remote.down |
 | JOIN | sg:remote.join |
 | LEAVE | sg:remote.leave |
-| FIRE | sg:remote.fire |
+| PERFORM | sg:remote.preform |
 | UP | sg:remote.up |
 
 
