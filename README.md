@@ -139,12 +139,11 @@ Values
 | Key | Value |
 | --- | ---- |
 | SPEC | sg:remote:spec |
-| OUT | sg:remote.out |
-| ERR | sg:remote.err |
+| DOWN | sg:remote.down |
 | JOIN | sg:remote.join |
 | LEAVE | sg:remote.leave |
 | FIRE | sg:remote.fire |
-| IN | sg:remote.in |
+| UP | sg:remote.up |
 
 
 ##### ReservedEvents
