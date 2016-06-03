@@ -138,10 +138,13 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| INTERFACE | sg:remote:interface |
+| SPEC | sg:remote:spec |
+| OUT | sg:remote.out |
+| ERR | sg:remote.err |
 | JOIN | sg:remote.join |
 | LEAVE | sg:remote.leave |
-| ACTION | sg:remote.action |
+| FIRE | sg:remote.fire |
+| IN | sg:remote.in |
 
 
 ##### ReservedEvents
