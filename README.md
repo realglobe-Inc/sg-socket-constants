@@ -139,11 +139,11 @@ Values
 | Key | Value |
 | --- | ---- |
 | SPEC | sg:remote:spec |
-| DOWN | sg:remote.down |
-| JOIN | sg:remote.join |
-| LEAVE | sg:remote.leave |
-| PERFORM | sg:remote.preform |
-| UP | sg:remote.up |
+| DOWN | sg:remote:down |
+| JOIN | sg:remote:join |
+| LEAVE | sg:remote:leave |
+| PERFORM | sg:remote:preform |
+| UP | sg:remote:up |
 
 
 ##### ReservedEvents
