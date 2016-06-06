@@ -143,7 +143,7 @@ Values
 | JOIN | sg:remote:join |
 | LEAVE | sg:remote:leave |
 | PERFORM | sg:remote:preform |
-| UP | sg:remote:up |
+| PIPE | sg:remote:pipe |
 
 
 ##### ReservedEvents
