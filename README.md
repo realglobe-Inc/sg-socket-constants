@@ -144,6 +144,7 @@ Values
 | LEAVE | sg:remote:leave |
 | PERFORM | sg:remote:preform |
 | PIPE | sg:remote:pipe |
+| NOTICE | sg:remote:notice |
 
 
 ##### ReservedEvents
