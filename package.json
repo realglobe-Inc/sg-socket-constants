@@ -1,6 +1,6 @@
 {
   "name": "sg-socket-constants",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "Constants variables for socket",
   "main": "lib",
   "browser": "browser",
