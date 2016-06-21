@@ -121,6 +121,15 @@ Values
 | UNLOCK | sg:lock:unlock |
 
 
+##### ObservingEvents
+
+| Key | Value |
+| --- | ---- |
+| START | sg:remote:start |
+| STOP | sg:remote:stop |
+| CHANGE | sg:remote:change |
+
+
 ##### PubsubEvents
 
 | Key | Value |
@@ -144,7 +153,6 @@ Values
 | LEAVE | sg:remote:leave |
 | PERFORM | sg:remote:preform |
 | PIPE | sg:remote:pipe |
-| NOTICE | sg:remote:notice |
 
 
 ##### ReservedEvents
