@@ -148,7 +148,6 @@ Values
 | Key | Value |
 | --- | ---- |
 | SPEC | sg:remote:spec |
-| DOWN | sg:remote:down |
 | JOIN | sg:remote:join |
 | LEAVE | sg:remote:leave |
 | PERFORM | sg:remote:preform |
@@ -191,6 +190,7 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 
 Links
 ------
+
 
 
 <!-- Links End -->

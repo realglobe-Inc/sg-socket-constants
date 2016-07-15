@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+/**
+ * Bud file for python bindings
+ */
+'use strict'
+
+const pkg = require('../../package.json')
+
+module.exports = {
+  force: true,
+  mode: '444',
+  data: {
+    pkg,
+    constants: require('../../lib')
+  }
+}
+
+if (!module.parent) {
+  require('coz').render(__filename)
+}

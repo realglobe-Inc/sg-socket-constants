@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+
+"""Python binding of {{pkg.name}}@{{pkg.version}}
+
+See {{{pkg.homepage}}} for more details
+"""
+
+{{#each constants}}
+class {{@key}}:
+{{#each this}}
+  {{@key}} = '{{{this}}}'
+{{/each}}
+
+{{/each}}
