@@ -153,7 +153,7 @@ Values
 | SPEC | `sg:remote:spec` |
 | JOIN | `sg:remote:join` |
 | LEAVE | `sg:remote:leave` |
-| PERFORM | `sg:remote:preform` |
+| PERFORM | `sg:remote:perform` |
 | PIPE | `sg:remote:pipe` |
 
 
