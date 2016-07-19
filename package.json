@@ -1,6 +1,6 @@
 {
   "name": "sg-socket-constants",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "Constants variables for socket",
   "main": "lib",
   "browser": "sims/browser",

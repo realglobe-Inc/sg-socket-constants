@@ -16,6 +16,6 @@ apeTasking.runTasks('build', [
     '.*.bud',
     'lib/.*.bud',
     'test/.*.bud',
-    'misc/**/.*.bud'
+    'sims/**/.*.bud'
   ])
 ], true)
