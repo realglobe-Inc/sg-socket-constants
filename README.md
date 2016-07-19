@@ -102,72 +102,72 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| OK | sg:acknowledge:ok |
-| NG | sg:acknowledge:ng |
+| OK | `sg:acknowledge:ok` |
+| NG | `sg:acknowledge:ng` |
 
 
 ##### GreetingEvents
 
 | Key | Value |
 | --- | ---- |
-| HI | sg:greet:hi |
-| BYE | sg:greet:bye |
+| HI | `sg:greet:hi` |
+| BYE | `sg:greet:bye` |
 
 
 ##### LockingEvents
 
 | Key | Value |
 | --- | ---- |
-| ALLOC | sg:lock:alloc |
-| RELEASE | sg:lock:release |
-| LOCK | sg:lock:lock |
-| UNLOCK | sg:lock:unlock |
+| ALLOC | `sg:lock:alloc` |
+| RELEASE | `sg:lock:release` |
+| LOCK | `sg:lock:lock` |
+| UNLOCK | `sg:lock:unlock` |
 
 
 ##### ObservingEvents
 
 | Key | Value |
 | --- | ---- |
-| START | sg:remote:start |
-| STOP | sg:remote:stop |
-| CHANGE | sg:remote:change |
+| START | `sg:remote:start` |
+| STOP | `sg:remote:stop` |
+| CHANGE | `sg:remote:change` |
 
 
 ##### PubsubEvents
 
 | Key | Value |
 | --- | ---- |
-| RAISE | sg:pubsub:raise |
-| SHUT | sg:pubsub:shut |
-| PUBLISH | sg:pubsub:publish |
-| COUNT | sg:pubsub:count |
-| SUBSCRIBE | sg:pubsub:subscribe |
-| UNSUBSCRIBE | sg:pubsub:unsubscribe |
-| RECEIVE | sg:pubsub:receive |
+| RAISE | `sg:pubsub:raise` |
+| SHUT | `sg:pubsub:shut` |
+| PUBLISH | `sg:pubsub:publish` |
+| COUNT | `sg:pubsub:count` |
+| SUBSCRIBE | `sg:pubsub:subscribe` |
+| UNSUBSCRIBE | `sg:pubsub:unsubscribe` |
+| RECEIVE | `sg:pubsub:receive` |
 
 
 ##### RemoteEvents
 
 | Key | Value |
 | --- | ---- |
-| SPEC | sg:remote:spec |
-| JOIN | sg:remote:join |
-| LEAVE | sg:remote:leave |
-| PERFORM | sg:remote:preform |
-| PIPE | sg:remote:pipe |
+| SPEC | `sg:remote:spec` |
+| JOIN | `sg:remote:join` |
+| LEAVE | `sg:remote:leave` |
+| PERFORM | `sg:remote:preform` |
+| PIPE | `sg:remote:pipe` |
 
 
 ##### ReservedEvents
 
 | Key | Value |
 | --- | ---- |
-| CONNECTION | connection |
-| CONNECT | connect |
-| RECONNECT | reconnect |
-| CONNECT_ERROR | connect_error |
-| CONNECT_TIMEOUT | connect_timeout |
-| DISCONNECT | disconnect |
-| ERROR | error |
+| CONNECTION | `connection` |
+| CONNECT | `connect` |
+| RECONNECT | `reconnect` |
+| CONNECT_ERROR | `connect_error` |
+| CONNECT_TIMEOUT | `connect_timeout` |
+| DISCONNECT | `disconnect` |
+| ERROR | `error` |
 
 
 
@@ -194,6 +194,8 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
++ [sugos][sugos_url]
 
+[sugos_url]: https://github.com/realglobe-Inc/sugos
 
 <!-- Links End -->
