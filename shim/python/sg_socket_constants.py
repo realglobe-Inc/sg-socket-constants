@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Python binding of sg-socket-constants@1.3.6
+"""Python binding of sg-socket-constants@1.3.7
 
 See https://github.com/realglobe-Inc/sg-socket-constants#readme for more details
 """
