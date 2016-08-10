@@ -9,6 +9,10 @@ class AcknowledgeStatus:
   OK = 'sg:acknowledge:ok'
   NG = 'sg:acknowledge:ng'
 
+class authEvnets:
+  AUTHENTICATION = 'authentication'
+  AUTHENTICATED = 'authenticated'
+
 class GreetingEvents:
   HI = 'sg:greet:hi'
   BYE = 'sg:greet:bye'

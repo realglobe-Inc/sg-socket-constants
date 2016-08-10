@@ -106,6 +106,14 @@ Values
 | NG | `sg:acknowledge:ng` |
 
 
+##### authEvnets
+
+| Key | Value |
+| --- | ---- |
+| AUTHENTICATION | `authentication` |
+| AUTHENTICATED | `authenticated` |
+
+
 ##### GreetingEvents
 
 | Key | Value |
