@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Python binding of sg-socket-constants@1.3.7
+"""Python binding of sg-socket-constants@1.3.8
 
 See https://github.com/realglobe-Inc/sg-socket-constants#readme for more details
 """
@@ -12,6 +12,7 @@ class AcknowledgeStatus:
 class authEvnets:
   AUTHENTICATION = 'authentication'
   AUTHENTICATED = 'authenticated'
+  UNAUTHENTICATED = 'unauthorized'
 
 class GreetingEvents:
   HI = 'sg:greet:hi'

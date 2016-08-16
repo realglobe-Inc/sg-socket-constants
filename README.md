@@ -112,6 +112,7 @@ Values
 | --- | ---- |
 | AUTHENTICATION | `authentication` |
 | AUTHENTICATED | `authenticated` |
+| UNAUTHENTICATED | `unauthorized` |
 
 
 ##### GreetingEvents
