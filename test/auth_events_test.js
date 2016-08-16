@@ -1,14 +1,14 @@
 /**
- * Test case for authEvnets.
+ * Test case for authEvents.
  * Runs with mocha.
  */
 'use strict'
 
-const authEvnets = require('../lib/auth_evnets.js')
+const authEvents = require('../lib/auth_events.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('auth-evnets', function () {
+describe('auth-events', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,7 +19,7 @@ describe('auth-evnets', function () {
 
   }))
 
-  it('Auth evnets', () => co(function * () {
+  it('Auth events', () => co(function * () {
 
   }))
 })

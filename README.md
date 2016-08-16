@@ -106,13 +106,13 @@ Values
 | NG | `sg:acknowledge:ng` |
 
 
-##### authEvnets
+##### AuthEvents
 
 | Key | Value |
 | --- | ---- |
 | AUTHENTICATION | `authentication` |
 | AUTHENTICATED | `authenticated` |
-| UNAUTHENTICATED | `unauthorized` |
+| UNAUTHORIZED | `unauthorized` |
 
 
 ##### GreetingEvents

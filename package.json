@@ -1,6 +1,6 @@
 {
   "name": "sg-socket-constants",
-  "version": "1.3.8",
+  "version": "1.3.9",
   "description": "Constants variables for socket",
   "main": "lib",
   "browser": "shim/browser",
@@ -27,10 +27,10 @@
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "*",
-    "ababel-es2015": "*",
-    "ababel-react": "*",
-    "amocha": "*",
+    "ababel": "^1.1.2",
+    "ababel-es2015": "^1.0.6",
+    "ababel-react": "^1.0.6",
+    "amocha": "^1.0.14",
     "ape-compiling": "^5.0.1",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
