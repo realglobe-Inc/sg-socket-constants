@@ -160,6 +160,7 @@ Values
 | Key | Value |
 | --- | ---- |
 | SPEC | `sg:remote:spec` |
+| DESPEC | `sg:remote:despec` |
 | JOIN | `sg:remote:join` |
 | LEAVE | `sg:remote:leave` |
 | PERFORM | `sg:remote:perform` |
