@@ -1,0 +1,22 @@
+package jp.realglobe.sg.socket;
+
+/**
+ * Java binding of {{pkg.name}}@{{pkg.version}}
+ *
+ * See {{{pkg.homepage}}} for more details
+ */
+public class Constants {
+
+    private Constants() {}
+{{#each constants}}
+
+    public static final class {{@key}} {
+        private {{@key}}() {}
+
+{{#each this}}
+        public static final String {{@key}} = "{{{this}}}";
+{{/each}}
+    }
+{{/each}}
+
+}
