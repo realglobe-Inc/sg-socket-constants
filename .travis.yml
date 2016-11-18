@@ -11,7 +11,6 @@ install:
 - npm install
 after_success:
 - ./ci/travis/publish.js
-- ./ci/travis/push_sugos.js
 script:
 - ./ci/build.js
 - ./ci/test.js
