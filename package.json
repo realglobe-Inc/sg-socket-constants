@@ -5,8 +5,8 @@
   "main": "lib",
   "browser": "shim/browser",
   "scripts": {
-    "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/browser.js"
+    "test": "node ./ci/test.js",
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
   },
   "repository": "realglobe-Inc/sg-socket-constants",
   "keywords": [
@@ -31,7 +31,6 @@
     "ababel-es2015": "^1.0.6",
     "ababel-react": "^1.0.6",
     "amocha": "^1.0.14",
-    "ape-compiling": "^5.0.1",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
@@ -39,6 +38,7 @@
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
     "coz": "^6.0.17",
+    "filecopy": "^2.1.2",
     "injectmock": "^2.0.0",
     "sg-travis": "^1.1.33"
   },
