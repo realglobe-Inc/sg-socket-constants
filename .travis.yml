@@ -2,17 +2,17 @@ language: node_js
 node_js:
 - '6'
 before_install:
-- echo "registry = https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-virtual" > $HOME/.npmrc
-- curl -u${NPM_USER}:${NPM_PASSWORD} "https://realglobe.artifactoryonline.com/realglobe/api/npm/auth" >> $HOME/.npmrc
-- cat $HOME/.npmrc
+- npm i npm-cli-login -g
+- echo "NPM_USER=${NPM_USER}"
+- npm-cli-login -u "${NPM_USER}" -p "${NPM_PASSWORD}" -e "${NPM_EMAIL}"
 install:
 - npm install
-after_success:
-- ./ci/travis/publish.js
 script:
 - ./ci/build.js
 - ./ci/test.js
-- ./ci/cover.js
-- ./ci/report.js
+after_success:
+- ./ci/travis/publish.js
+- ./ci/travis/push_sugos_index.js
+
 env:
-  secure: "xCSau1CengCy3dgcNuUE3pRgmDRtAE6Nk5PssKUZ5vhy+8/PYPWm2CltAvjc3zfY2+6QFkA2j7x356ronT9cencFvfBKhCK162vXOgBZFj6/iLqyKnba+a5SGHKRV4cXdojqils/E/j2yi9DpDL/UGxdR7PimpnigHz0PuWuZA4hu4hpkbXsC2jNm+n1BVEXOqovLZMGv6asdfWuvPv5iYpgKgHPYNinXg1Belkwf8RJgPMbZ/0JNrfflKdIuSt+/TOSeU5efMgct85No/vlHJQ+F90lSUkaBX/UFJRuIXI0dIcBI1Krqij65/o0KHh6qxGZB0Ls5TEtx1hvTJQw8DnRph4JwXhqrcI4gmPeLM4HJ50s5Bk1sstCys9FTXUa9IOJpF0K2Eq4Q9Qpz0DqfwBkGEIuN8FEoTtgPd7tMeH2fviP22Cf57pGeJRhzgelzOF243M1Nis9fOHgZ9+bynbXi5Xzhvfal70Jxs0iSjAL8D41WAx+XIkJ/hUVBKAZvZAkQcSzd3Zl92+492Pj+MP3hn2M1PBKNGdkeN0ONxQ+NANuckbiTfKmc7IB9NvEwJ7F/zpbxgliKdrk+Q4FUKgbEDu9nYdygbWFytbhgamZ+hR7cxvguWwg9xcQ4/7hi7MAy3SYiHMnFJ+4IzATxudjytS2slzYxBXQEdRcKuU="
+  secure: "BRCfHeom8JmXcyK2LbVyDVjekdHN1992eZT5WZUfO5DsGelP7SwHO+xU0W8JqlyVruILGz9fKbmtAl2kFner0XHWdUUN3zOLa5I3DbjEmhfMYKPWMfFk43YacD5KX8UObbmQ/eFnsjOuNWVss+PruOmU528ScUyfQigMZA5MBKThXjIgQ1hKYqaXbTAANzWTD4Gw/nw4DOA70Yjg/UXBIKE/j/pwHZDYLZQ5jDg1qnmKwrsJN8IJEevHPbunIHUkvJPWXCg4/+OAlXV88kYtZy8W4JUha/GmeLwxQe0tU7GuYTFEzdD7xIaUCHlsPMCWfmJFYDnwMueqfaGbpqypRbw+DjqfT3IFeafVjZMSv2PtNQYy76TIm0i1Sk0ms6xFcZ40kl1tW/CQROrK40xCRWp5MWargR4/+4jeGaxDwv5jFfTQ//76nI2VatcpfHJkrc2wjn83Bemk8HLDde03P0i/9kdj56DirRfCIeTxboz8fN0wUwwsnkXj/DxPjzPmjCmigu9qU9JLLkUl7u3o89Bbeg5qgR50xjV1RptdhC3Yy4kv5A3ENpjdpX0VajL9nB8bmRa/ZT7T4jTAwdOC5m6dbuzSUCCLKb6i9mKpWYtuwgEi2Fs3ja/VJKU/AFHZw08xpGyttlUp3vnn9NWGOkRcdkpvIzWHWZBQYWasyc4="

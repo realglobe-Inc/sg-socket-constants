@@ -7,6 +7,6 @@ setup(
     author="Taka Okunishi",
     author_email="okunishitaka.com@gmail.com",
     url="https://github.com/realglobe-Inc/sg-socket-constants#readme",
-    license="MIT",
+    license="Apache-2.0",
     py_modules=["sg_socket_constants"],
 )
