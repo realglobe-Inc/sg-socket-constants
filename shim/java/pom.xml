@@ -5,7 +5,7 @@
   <groupId>jp.realglobe</groupId>
   <artifactId>sg-socket-constants</artifactId>
   <packaging>jar</packaging>
-  <version>1.3.11</version>
+  <version>1.3.12</version>
   <name>sg-socket-constants</name>
 
   <properties>
