@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="sg-socket-constants",
-    version="1.3.13",
+    version="1.3.14",
     description="Constants variables for socket",
     author="Taka Okunishi",
     author_email="okunishitaka.com@gmail.com",
