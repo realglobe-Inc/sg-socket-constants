@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Python binding of sg-socket-constants@1.4.0
+"""Python binding of sg-socket-constants@1.5.0
 
 See https://github.com/realglobe-Inc/sg-socket-constants#readme for more details
 """
@@ -45,6 +45,7 @@ class RemoteEvents:
   JOIN = 'sg:remote:join'
   LEAVE = 'sg:remote:leave'
   PERFORM = 'sg:remote:perform'
+  RESULT = 'sg:remote:result'
   PIPE = 'sg:remote:pipe'
 
 class ReservedEvents:

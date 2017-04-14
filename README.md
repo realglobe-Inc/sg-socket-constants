@@ -165,6 +165,7 @@ Values
 | JOIN | `sg:remote:join` |
 | LEAVE | `sg:remote:leave` |
 | PERFORM | `sg:remote:perform` |
+| RESULT | `sg:remote:result` |
 | PIPE | `sg:remote:pipe` |
 
 
