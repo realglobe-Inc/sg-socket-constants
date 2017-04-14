@@ -41,6 +41,7 @@ class PubsubEvents:
 class RemoteEvents:
   SPEC = 'sg:remote:spec'
   DESPEC = 'sg:remote:despec'
+  PURGE = 'sg:remote:purge'
   JOIN = 'sg:remote:join'
   LEAVE = 'sg:remote:leave'
   PERFORM = 'sg:remote:perform'

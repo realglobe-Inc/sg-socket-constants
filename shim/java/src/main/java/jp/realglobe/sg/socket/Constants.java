@@ -81,6 +81,7 @@ public class Constants {
 
         public static final String SPEC = "sg:remote:spec";
         public static final String DESPEC = "sg:remote:despec";
+        public static final String PURGE = "sg:remote:purge";
         public static final String JOIN = "sg:remote:join";
         public static final String LEAVE = "sg:remote:leave";
         public static final String PERFORM = "sg:remote:perform";
