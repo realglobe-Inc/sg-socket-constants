@@ -168,6 +168,7 @@ Values
 | RESULT | `sg:remote:result` |
 | PIPE | `sg:remote:pipe` |
 | ERROR | `sg:remote:error` |
+| NOTICE | `sg:remote:notice` |
 
 
 ##### ReservedEvents

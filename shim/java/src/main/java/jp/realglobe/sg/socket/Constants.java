@@ -88,6 +88,7 @@ public class Constants {
         public static final String RESULT = "sg:remote:result";
         public static final String PIPE = "sg:remote:pipe";
         public static final String ERROR = "sg:remote:error";
+        public static final String NOTICE = "sg:remote:notice";
     }
 
     public static final class ReservedEvents {
