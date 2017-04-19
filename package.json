@@ -1,6 +1,6 @@
 {
   "name": "sg-socket-constants",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Constants variables for socket",
   "main": "lib",
   "browser": "shim/browser",
@@ -37,9 +37,9 @@
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.17",
-    "filecopy": "*",
+    "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
-    "sugos-travis": "*"
+    "sugos-travis": "^2.0.7"
   },
   "engines": {
     "node": ">=6",

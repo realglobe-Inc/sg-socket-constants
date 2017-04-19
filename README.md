@@ -167,6 +167,7 @@ Values
 | PERFORM | `sg:remote:perform` |
 | RESULT | `sg:remote:result` |
 | PIPE | `sg:remote:pipe` |
+| ERROR | `sg:remote:error` |
 
 
 ##### ReservedEvents

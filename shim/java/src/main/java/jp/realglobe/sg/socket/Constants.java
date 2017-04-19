@@ -17,7 +17,7 @@
 package jp.realglobe.sg.socket;
 
 /**
- * Java binding of sg-socket-constants@1.5.0
+ * Java binding of sg-socket-constants@1.6.0
  *
  * See https://github.com/realglobe-Inc/sg-socket-constants#readme for more details
  */
@@ -87,6 +87,7 @@ public class Constants {
         public static final String PERFORM = "sg:remote:perform";
         public static final String RESULT = "sg:remote:result";
         public static final String PIPE = "sg:remote:pipe";
+        public static final String ERROR = "sg:remote:error";
     }
 
     public static final class ReservedEvents {
