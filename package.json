@@ -1,6 +1,6 @@
 {
   "name": "sg-socket-constants",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "Constants variables for socket",
   "main": "lib",
   "browser": "shim/browser",

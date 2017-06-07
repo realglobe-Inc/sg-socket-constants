@@ -17,7 +17,7 @@
 package jp.realglobe.sg.socket;
 
 /**
- * Java binding of sg-socket-constants@1.6.1
+ * Java binding of sg-socket-constants@1.7.0
  *
  * See https://github.com/realglobe-Inc/sg-socket-constants#readme for more details
  */
